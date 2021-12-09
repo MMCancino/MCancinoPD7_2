@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_feda5d6194b94a1ea0340d62c3f13cc2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_feda5d6194b94a1ea0340d62c3f13cc2" ></div>
+        
+</body>
+<script>    
+    
+            var map_feda5d6194b94a1ea0340d62c3f13cc2 = L.map(
+                "map_feda5d6194b94a1ea0340d62c3f13cc2",
+                {
+                    center: [31.637, -97.083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1dc7b6b062b84dc1a3bd970d7ea126db = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_feda5d6194b94a1ea0340d62c3f13cc2);
+        
+    
+            var circle_marker_51cd82adff3e409ba8f9b1f978bb7580 = L.circleMarker(
+                [31.637, -97.083],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_feda5d6194b94a1ea0340d62c3f13cc2);
+        
+    
+        var popup_525d8a088d0443679d9e1d48fc7365bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_899a499661b24fd9ad6c0b4fa89aa61b = $(`<div id="html_899a499661b24fd9ad6c0b4fa89aa61b" style="width: 100.0%; height: 100.0%;">WACO</div>`)[0];
+            popup_525d8a088d0443679d9e1d48fc7365bd.setContent(html_899a499661b24fd9ad6c0b4fa89aa61b);
+        
+
+        circle_marker_51cd82adff3e409ba8f9b1f978bb7580.bindPopup(popup_525d8a088d0443679d9e1d48fc7365bd)
+        ;
+
+        
+    
+    
+            var marker_8e8beac66d974df49532e29ed98428fa = L.marker(
+                [33.577, -101.858],
+                {}
+            ).addTo(map_feda5d6194b94a1ea0340d62c3f13cc2);
+        
+    
+        var popup_5a0216655b324c7a970040e5f8760ab2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_592ef202eb8c40b394aa1767f810d76d = $(`<div id="html_592ef202eb8c40b394aa1767f810d76d" style="width: 100.0%; height: 100.0%;">Lubbock</div>`)[0];
+            popup_5a0216655b324c7a970040e5f8760ab2.setContent(html_592ef202eb8c40b394aa1767f810d76d);
+        
+
+        marker_8e8beac66d974df49532e29ed98428fa.bindPopup(popup_5a0216655b324c7a970040e5f8760ab2)
+        ;
+
+        
+    
+    
+            var marker_52e941fca0754e268d5c1a7d8b42a23a = L.marker(
+                [31.637, -97.083],
+                {}
+            ).addTo(map_feda5d6194b94a1ea0340d62c3f13cc2);
+        
+    
+        var popup_e5d010b4b50647f69d137bc61d921348 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd09316f9de94bbd9c80b6ea681870f6 = $(`<div id="html_bd09316f9de94bbd9c80b6ea681870f6" style="width: 100.0%; height: 100.0%;">TSTC at Waco</div>`)[0];
+            popup_e5d010b4b50647f69d137bc61d921348.setContent(html_bd09316f9de94bbd9c80b6ea681870f6);
+        
+
+        marker_52e941fca0754e268d5c1a7d8b42a23a.bindPopup(popup_e5d010b4b50647f69d137bc61d921348)
+        ;
+
+        
+    
+    
+            var marker_f140822c2bb8474ca5867c0972b8678e = L.marker(
+                [30.274, -97.74],
+                {}
+            ).addTo(map_feda5d6194b94a1ea0340d62c3f13cc2);
+        
+    
+        var popup_c0f13a2bb5f94d158c6d319192238516 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b449eff9b1945bb9f62469500108822 = $(`<div id="html_1b449eff9b1945bb9f62469500108822" style="width: 100.0%; height: 100.0%;">Capitol Building</div>`)[0];
+            popup_c0f13a2bb5f94d158c6d319192238516.setContent(html_1b449eff9b1945bb9f62469500108822);
+        
+
+        marker_f140822c2bb8474ca5867c0972b8678e.bindPopup(popup_c0f13a2bb5f94d158c6d319192238516)
+        ;
+
+        
+    
+    
+            var marker_55f82db178a3448b8861e957107bd440 = L.marker(
+                [26.22, -97.666],
+                {}
+            ).addTo(map_feda5d6194b94a1ea0340d62c3f13cc2);
+        
+    
+        var popup_9554f50ca56047ada7a6bf40f3d5dd00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8ad7b1dcf02467a8eea68e25ef9789e = $(`<div id="html_d8ad7b1dcf02467a8eea68e25ef9789e" style="width: 100.0%; height: 100.0%;">TSTC at Harlingen</div>`)[0];
+            popup_9554f50ca56047ada7a6bf40f3d5dd00.setContent(html_d8ad7b1dcf02467a8eea68e25ef9789e);
+        
+
+        marker_55f82db178a3448b8861e957107bd440.bindPopup(popup_9554f50ca56047ada7a6bf40f3d5dd00)
+        ;
+
+        
+    
+    
+            var poly_line_fce942f46eec4e7d9d21a960a094894f = L.polyline(
+                [[31.637, -97.083], [33.577, -101.858], [30.274, -97.74], [26.22, -97.666]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_feda5d6194b94a1ea0340d62c3f13cc2);
+        
+</script>
